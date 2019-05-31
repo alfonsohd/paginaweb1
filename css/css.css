@@ -1,0 +1,320 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	background-color: black;
+}
+*::selection{
+    background: green;
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 2px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+b{
+	color: #56FF72;
+}
+.a{
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s; 
+	transition-delay: 0.5s;
+}
+.a:hover{
+	color: #56FF72;
+	text-decoration: underline;
+}
+#logo{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	left: 50px;
+	cursor: pointer;
+	transition: 1s transform, 1s filter;
+	transition-delay: 0.1s;
+}
+#logo:hover{
+	transform: translateX(5px);
+	filter: saturate(4);
+}
+#menubl{
+	width: 100%;
+	height: 80px;
+	padding-top: 5px;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid #56FF72;
+}
+#menu{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 25%;
+	border: 5px solid transparent;
+	margin-top: 0.5%;
+}
+.menu{
+	padding: 20px 50px;
+	float: left;
+	color: white;
+	font-family: 'arial', sans-serif;
+	transition: border-left 0.5s, color 0.5s;
+	transition-delay: 0.5s;
+	cursor: pointer;
+	font-family: 'Audiowide', cursive;
+}
+.menu:hover{
+	border-left: 2px solid #56FF72;
+	color: #56FF72;
+}
+#cabeza{
+	width: 100%;
+	height: 650px;
+	background-image: url('../img/81HbOgTDikL._SL1500_.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-animation: 50s trans infinite ease-out;
+}
+@-webkit-keyframes trans {
+	0%{background: fixed no-repeat bottom url('../img/61b533e8092ebcec97e1ed4aa41decca.png')}
+	25%{background: fixed no-repeat url('../img/Untitled-10.jpg')}
+	50%{background: fixed no-repeat url('../img/setup.jpg')}
+	75%{background: fixed no-repeat center url('../img/online-gaming-1.jpg')}
+	100%{background: fixed no-repeat url('../img/Best-gaming-keyboard.jpg')}
+}
+
+#tltxpos{
+	width: 40%;
+	height: auto;
+	border: 2px solid transparent;
+	float: left;
+	margin-top: 10%;
+	margin-left: 30%;
+}
+#tlt{
+	margin-left: 12%;
+	float: left;
+	padding: 30px;
+	color: white;
+	font-family: 'Righteous', cursive;
+	font-size: 60px;
+	border-bottom: 1px solid white;
+	text-shadow: 2px 2px 8px black;
+	letter-spacing: 1px;
+}
+#tx{
+	float: left;
+	padding: 20px;
+	border: 1px solid transparent;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	word-break: break-all;
+	hyphens: auto;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+#info{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #56FF72;
+}
+.tipos{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#tipos{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image:url('../img/maxresdefault-3.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	float: left;
+}
+#tipos1{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image:url('../img/Roccat-Kone-AIMO-2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	float: left;
+}
+#tipos2{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image:url('../img/Best-gaming-keyboard.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	float: left;
+}
+#tipos3{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image:url('../img/auriculares-gaming.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	float: left;
+}
+#atips{
+	color: white;
+	margin-left: 10%;
+	font-family: 'Righteous', cursive;
+	text-shadow: 2px 2px 8px black;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 35px;
+	transition: 1s color;
+	transition-delay: 0.3s;
+}
+#atips:hover{
+	color: #56FF72;
+}
+#info1{
+	width: 100%;
+	height: auto;
+	padding-bottom: 200px;
+	float: left;
+	background-color: /*#56FF72*/ gray;
+}
+.txtpos{
+	width: 75%;
+	height: auto;
+	float: left;
+	border: 1px solid transparent;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+#tl{
+	float: left;
+	width: 50%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: 'Righteous', cursive;
+	font-size: 35px;
+	color: white;
+	border: 1px solid transparent;
+	text-align: center;
+}
+#txt{
+	float: left;
+	width: 45.5%;
+	height: auto;
+	border: 1px solid transparent;
+	word-break: break-all;
+	hyphens: auto;
+	color: lightgray;
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+}
+#cont{
+	float: left;
+	width: 100%;
+	height: 600px;
+	padding-bottom: 200px;
+	background-image: url('../img/apex150.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+#tlcont{
+	font-family: 'Righteous', cursive;
+	font-size: 60px;
+	color: white;
+	float: left;
+	margin-top: 5%;
+	margin-left: 40%;
+}
+#right{
+	float: right;
+	width: 50%;
+	height: 300px;
+	background-image: url('../img/Best_Set-Up.png');
+	background-size: cover;
+	background-position: left;
+}
+#formpos{
+	background-color: white;
+	float: left;
+	width: 45%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: 30%;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px gray;
+}
+.input{
+	float: left;
+	border-bottom: 1px solid #56FF72;
+	border-left: 1px solid #56FF72;
+	border-top: hidden;
+	border-right: hidden;
+	border-bottom-left-radius: 5px;
+	padding: 15px 10px;
+	width: 250px;
+	margin-top: 5%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	transition: 1s background-color, 1s border-radius, 1s border;
+	transition-delay: 0.1s;
+}
+.input:hover{
+	background-color: #56FF72;
+	border-radius: 5px;
+	border: hidden;
+}
+#input{
+	float: left;
+	border-bottom: 1px solid #56FF72;
+	border-top: hidden;
+	border-right: hidden;
+	border-left: 1px solid #56FF72;
+	margin-top: 2%;
+	width: 350px;
+	height: 50px;
+	border-bottom-left-radius: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	transition: 1s background-color, 1s border-radius, 1s border;
+	transition-delay: 0.1s;
+}
+#input:hover{
+	background-color: #56FF72;
+	border-radius: 5px;
+	border: hidden;
+}
+#send{
+	margin-top: 25%;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #56FF72;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#send:hover{
+	background-color: black;
+	color: white;
+}
